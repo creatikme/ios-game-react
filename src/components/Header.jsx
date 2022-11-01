@@ -1,18 +1,20 @@
+import Logo from '../assets/logo.png';
 const Header = () => {
   return (
-    <header class="w-full px-8 text-gray-700 bg-white tails-selected-element">
+    <header class="w-full px-8 text-gray-700 fixed bg-white tails-selected-element">
       <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
         <div class="relative flex flex-col md:flex-row">
           <a
             href="#_"
             class="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
           >
-            <span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">
+            <img src={Logo} className="w-[120px]" />
+            {/* <span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">
               tails
               <span class="text-indigo-600" data-primary="indigo-600">
                 .
               </span>
-            </span>
+            </span> */}
           </a>
           {/* <nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
             <a
