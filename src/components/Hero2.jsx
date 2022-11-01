@@ -2,6 +2,13 @@ const Hero2 = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover text-center object-center rounded"
+            alt="hero"
+            src="https://dummyimage.com/720x600"
+          />
+        </div>
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
             47 red pro brings the full control and transparency of modern resort
